@@ -1,0 +1,24 @@
+myModule1***
+
+module.exports={
+    name:'master hermit',
+    email:'rajpruthwi5534@gmail.com'
+}
+
+// commonJs Module Syntax
+//const person =require('./myModule1');
+
+myModule2***
+
+//Es2015 Module
+
+//import {person,sayMc} from './myModule2';
+//import * as mod from './myModule2';
+//this imports everything from './myModule2';
+
+import greeting from './myModule2';
+
+// console.log(mod.person.name);
+// console.log(mod.sayMc())
+
+console.log(greeting);
